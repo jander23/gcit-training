@@ -23,6 +23,7 @@ import com.smoothstack.lmslibrarian.model.LibraryBranch;
 
 @RestController
 @CrossOrigin
+@RequestMapping(path="/librarian")
 public class LibrarianController {
 	@Autowired
 	BookCopiesDao bcdao;

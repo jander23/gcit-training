@@ -26,6 +26,7 @@ import com.smoothstack.lmsborrower.model.LibraryBranch;
 
 @RestController
 @CrossOrigin
+@RequestMapping(path="/borrower")
 public class BorrowerController {
 	@Autowired
 	private BookLoanDao bldao;

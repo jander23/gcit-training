@@ -35,6 +35,7 @@ import com.smoothstack.lmsadministrator.model.Publisher;
 
 @RestController
 @CrossOrigin
+@RequestMapping(path="/administrator")
 public class AdministratorController {
 	@Autowired
 	private BookDao bdao;
